@@ -1,0 +1,289 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #ffffff;
+    color: #343c4b;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Align it to the top of the viewport */
+    left: 0; /* Align it to the left of the viewport */
+    width: 100%; /* Full width of the viewport */
+    z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.nav-links a {
+    color: #343c4b;
+    text-decoration: none;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #AE8861;
+    color: #ffffff;
+    border-radius: 5px;
+    transform: scale(1.1); /* Slight increase in size */
+}
+
+.upload-btn {
+    background-color: #AE8861;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 1rem;
+    transition: transform 0.3s ease; /* Smooth transformation */
+}
+
+.upload-btn:hover {
+    background-color: #7d5f41;
+    color: white;
+    transform: scale(1.1); /* Slight increase in size */
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: white;
+    padding: 50px 0;
+    border-bottom: 1px solid #ddd;
+    padding-top: 150px;
+    padding-left: 2%;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hero-text {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    color: #003366;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.hero-image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 6rem;
+}
+
+/* Section Styles */
+
+/* Overview Section */
+#overview {
+    background-color: #e6f2ff;
+}
+
+#overview .hero-text h1 {
+    color: #003366;
+}
+
+#overview .hero-text p {
+    color: #333;
+}
+
+/* Traditional Attire Section */
+#traditional-attire {
+    background-color: #f9f9f9;
+}
+
+#traditional-attire .hero-text h1 {
+    color: #663300;
+}
+
+#traditional-attire .hero-text p {
+    color: #444;
+}
+
+/* Festivals Section */
+#festivals {
+    background-color: #fffbe6;
+}
+
+#festivals .hero-text h1 {
+    color: #993366;
+}
+
+#festivals .hero-text p, #festivals .hero-text ul {
+    color: #555;
+}
+
+/* Music & Dance Section */
+#music-dance {
+    background-color: #ffe6e6;
+}
+
+#music-dance .hero-text h1 {
+    color: #cc3300;
+}
+
+#music-dance .hero-text p, #music-dance .hero-text ul {
+    color: #444;
+}
+
+/* Cuisine Section */
+#cuisine {
+    background-color: #e6ffe6;
+}
+
+#cuisine .hero-text h1 {
+    color: #339933;
+}
+
+#cuisine .hero-text p {
+    color: #333;
+}
+
+/* Architecture Section */
+#architecture {
+    background-color: #e6e6ff;
+}
+
+#architecture .hero-text h1 {
+    color: #3333cc;
+}
+
+#architecture .hero-text p, #architecture .hero-text ul {
+    color: #444;
+}
+
+/* Religious Beliefs Section */
+#religious-beliefs {
+    background-color: #fff2e6;
+}
+
+#religious-beliefs .hero-text h1 {
+    color: #cc6600;
+}
+
+#religious-beliefs .hero-text p, #religious-beliefs .hero-text ul {
+    color: #555;
+}
+
+/* Additional Festivals Section */
+#additional-festivals {
+    background-color: #f2f2f2;
+}
+
+#additional-festivals .hero-text h1 {
+    color: #990099;
+}
+
+#additional-festivals .hero-text p, #additional-festivals .hero-text ul {
+    color: #666;
+}
+
+/* Language & Literature Section */
+#language-literature {
+    background-color: #e6f7ff;
+}
+
+#language-literature .hero-text h1 {
+    color: #006699;
+}
+
+#language-literature .hero-text p {
+    color: #333;
+}
+
+/* Social Customs Section */
+#social-customs {
+    background-color: #ffe6cc;
+}
+
+#social-customs .hero-text h1 {
+    color: #cc5200;
+}
+
+#social-customs .hero-text p {
+    color: #444;
+}
+
+/* Tribes Section */
+#tribes {
+    background-color: #f9f9f9;
+}
+
+#tribes .hero-text h1 {
+    color: #663300;
+}
+
+#tribes .hero-text p, #tribes .hero-text ul {
+    color: #444;
+}
+
+/* Media Resources Section */
+#media-resources {
+    background-color: #e6e6e6;
+}
+
+#media-resources .hero-text h1 {
+    color: #333;
+}
+
+#media-resources .hero-text p {
+    color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 0;
+}
